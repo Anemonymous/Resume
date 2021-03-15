@@ -1,0 +1,75 @@
+/* Add a peach bg-color and set fontstyles */
+body {
+  font-family: century gothic, monospace;
+  background-color: #FFEEBB;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #9DBCBC;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #006666;
+  color: white;
+}
+
+/* Sets a picture circular */
+.circular-picture {
+  display: inline-block;
+  position: relative;
+  width: 500px;
+  top: 20px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 10px solid #FFCC66;
+}
+
+/* Sets a picture circular no matter the shape */
+.circular-picture img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Creates a background color for div elements */
+.contrast-bg{
+  background-color:   hsl(40,100%,70%);
+  height: 100%;
+}
+
+.bold {
+  font-weight: 700; 
+}
